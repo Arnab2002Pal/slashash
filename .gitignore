@@ -1,0 +1,26 @@
+# Ignore Node.js and NPM artifacts
+node_modules/
+
+# Ignore build artifacts
+/build
+
+
+
+# Ignore backend-specific files
+/backend/node_modules/
+/backend/.env
+/backend/build
+
+# Ignore frontend-specific files
+/frontend/node_modules/
+/frontend/build
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore package-lock files
+package-lock.json
